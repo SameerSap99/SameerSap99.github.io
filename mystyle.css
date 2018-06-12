@@ -1,0 +1,167 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family:"Lato", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.portrait {
+    position:absolute;
+    width:10vw;
+    height:12vh;
+}
+
+.SameerPortrait {
+  float:left;
+  position:absolute;
+  top:50%
+  width:35vw;
+  height:30vh;
+  border-radius:50%;
+  top:30%;
+  left:37%;
+  border:10
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('pictures/campus.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('pictures/colorado1.jpg');
+  min-height:400px;
+}
+h2 {
+  top:-30px
+}
+
+.section{
+  text-align:center;
+  padding:60px 30px;
+}
+
+.section-light{
+  background-color:#f4f4f4;
+  color:#666;
+  height:200px;
+
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+  height: 300px;
+}
+
+.titleText{
+  position:absolute;
+  top:15%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:40px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  font-weight: 800;
+}
+
+/*.titleText .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.titleText .border.trans{
+  background-color:transparent;
+}*/
+
+.aboutText {
+  position:absolute;
+  width:75%;
+  text-align:center;
+  color:#fff;
+  font-size:18px;
+  letter-spacing:3px;
+  top:65%;
+  left:12.5%;
+  /*background-color:#505050;*/
+  background-color: #fff;
+  color: #000;
+  padding: 7px 7px 7px 7px;
+  opacity:0.8;
+
+}
+
+/*.aboutText .border {
+  background-color:#111;
+  color:#fff;
+  padding:7px;
+  opacity:0.7;
+}
+.aboutText .border.trans{
+  background-color:transparent;
+}*/
+
+.social-media {
+  list-style-type: none;
+  display:inline;
+  align-self: center;
+}
+
+
+
+.social {
+  position:absolute;
+  width:40px;
+  height:40px;
+  top:90%;
+
+}
+
+.social:hover {
+  top:88%;
+  fill: #0077B5;
+}
+
+.linkedin {
+  left:33.5%;
+}
+.linkedin:hover {
+  fill: #0077B5;
+}
+
+.github {
+  left:43.5%;
+}
+
+.gmail {
+  left:53.5%;
+}
+
+.spotify {
+  left: 63.5%;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
