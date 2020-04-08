@@ -1,0 +1,166 @@
+html { overflow-y: scroll; }
+
+body {
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+}
+.w3-lobster {
+    font-family: "Lobster", serif;
+  }
+.webTitle {
+    text-align: center
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    min-height: 100px;
+    overflow: hidden;
+}
+  
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    /* overflow: auto; */
+}
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    } */ 
+
+.sameerBitmoji {
+    text-align: left;
+    left: 50px;
+    /* right: 50%; */
+    /* right:30px; */
+    position: fixed;
+    height: 50%;
+    z-index:-1;
+}
+.picture {
+    text-align: left;
+    left: 50px;
+    right: 50%;
+    /* right:30px; */
+    position: fixed;
+    height: 50%;
+    z-index:-1;
+}
+
+.letter {
+    text-align: center;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 150%;
+    /* margin-top: 50%; */
+}
+
+.pictah {
+    text-align: left;
+    left: 50px;
+    right: 50%;
+    /* right:30px; */
+    position: fixed;
+    height: 60%;
+    z-index:-1;
+}
+
+.pictureVert {
+    -webkit-transform: rotate(90deg);
+    text-align: left;
+    left: 50px;
+    right: 50%;
+    /* right:30px; */
+    position: fixed;
+    height: 30%;
+    margin-top: 15%;
+    z-index:-1;
+}
+
+/* .cursive {
+  font-size:30px; 
+  margin: 10px 50px; 
+  letter-spacing: 6px; 
+  font-weight: bold;
+} */
+
+ .flex-center {
+    display: flex;
+    justify-content: center;
+    top: 50%;
+    overflow: auto
+  }
+
+  .right {
+      right: 5%;
+      text-align: center;
+      position: absolute;
+  }
+  .pass {
+    margin-top: 6%;
+    margin-left: 31%;
+    display: none
+  }
+  .pass2 {
+    margin-top: 10%;
+    margin-left: 60%;
+    z-index:2;
+  }
+
+  .test {
+      /* text-align: right; */
+      margin-top: 10%;
+      margin-left:75%
+  }
+
+  .StartGame {
+    margin-top: 20%;
+    margin-left: 31%;
+    display: none
+  }
+
+  .jibjab {
+      width: 60%;
+      height: 100%
+  }
+
+/*
+.line-1{
+
+    position: relative;
+    width: 48em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 130%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-25%);  
+    font-family: 'Anonymous Pro', monospace;  
+  
+}
+
+/* Animation */
+/* .anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 48em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+} */ 
