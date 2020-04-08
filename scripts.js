@@ -45,6 +45,6 @@ function checkPassword() {
     console.log("inside func");
     var pass = document.getElementById("pass")
     if (pass.value == "cringe") {
-        location.replace(window.location.href.replace("index", "cringe"));
+        location.href = "cringe.html";
     }
 }
